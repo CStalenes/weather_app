@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title> Application Meteo </title>
+</head>
+<body>
+    <div class="app-card">
+        <div class="app-card-top">
+            <form action="">
+                <input type="text" data-location autocomplete="off" placeholder="Entrez votre ville">
+                
+            </form>
+            <div data-date> Lundi 15:33 </div>
+            <div data-temperature>
+                <span>14</span><sup>°C</sup>
+            </div>
+            <img src="" width="100" data-image>
+            <div data-temperature-text>Ensoleillé</div>
+           
+            <!-- Nouveau div pour afficher l'indicateur Jour/Nuit -->
+        </div>
+        <div> Temperature pour les 3 prochains jours</div>
+        <div class="app-card-bottom"></div>        
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
